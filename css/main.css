@@ -523,9 +523,9 @@ body::-webkit-scrollbar-thumb {
   }
 }
 @media (min-width: 1200px) {
-  .header--static {
+  /*.header--static {
     position: relative;
-  }
+  }*/
   .header--fixed {
     border-bottom: 1px solid transparent;
   }
