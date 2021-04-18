@@ -281,20 +281,17 @@ function tokyo_tm_nav_bg(){
 	"use strict";
 
 	jQuery(window).on('scroll',function(){
-		var topbar	 		= jQuery('.tokyo_tm_topbar');
-    var topbar2	 		= jQuery('.tokyo_tm_mobile_menu');
-    var menu	 		  = jQuery('.my_trigger');
+		var topbar	 		= jQuery('.header');
+    var search	 		  = jQuery('.header__form');
     
 		var WinOffset		= jQuery(window).scrollTop();
 
 		if(WinOffset >= 100){
 			topbar.addClass('animate');
-      topbar2.addClass('animate');
-      menu.addClass('animate');
+      search.addClass('animate');
 		}else{
-			topbar.removeClass('animate');
-      topbar2.removeClass('animate');
-      menu.removeClass('animate');
+			topbar.removeClass('animate'); 
+      search.removeClass('animate');
 		}
 	});
 }
