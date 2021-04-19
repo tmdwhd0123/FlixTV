@@ -112,7 +112,7 @@ textarea.form-control {
 	padding:20px;
 	margin-bottom:30px;
 	-webkit-transition:all .5s;
-	transition:all .5s
+	transition:all .5s;
 }
 .what-we-do-item i {
 	font-size:60px;
@@ -122,14 +122,15 @@ textarea.form-control {
 	line-height:1
 }
 .what-we-do-item h3 {
-	margin-bottom:15px
+	margin-bottom:15px;
+  font-weight: 700;
 }
 .what-we-do-item.mt-mince-30 {
-	margin-top:-30px
+	margin-top:-30px;
 }
 .what-we-do-item:hover {
 	-webkit-transform:translateY(-5px);
-	transform:translateY(-5px)
+	transform:translateY(-5px);
 }
 
 
