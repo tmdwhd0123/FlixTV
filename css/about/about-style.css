@@ -132,7 +132,9 @@ textarea.form-control {
 	-webkit-transform:translateY(-5px);
 	transform:translateY(-5px);
 }
-
+.what-we-do-item p{
+  margin: 0px;
+}
 
 
 
