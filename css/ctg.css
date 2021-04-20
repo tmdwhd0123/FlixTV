@@ -15,15 +15,15 @@
 .ctg-division__line{
   width: 70px;
   height: 1px;
-  background: #bbb; background-image: -webkit-linear-gradient(left, #0E0E0E, #777, #0E0E0E); 
-  background-image: -moz-linear-gradient(left, #0E0E0E, #777, #0E0E0E); 
-  background-image: -ms-linear-gradient(left, #0E0E0E, #777, #0E0E0E); 
-  background-image: -o-linear-gradient(left, #0E0E0E, #777, #0E0E0E);
+  background: #bbb; background-image: -webkit-linear-gradient(left, #0E0E0E, #fff, #0E0E0E); 
+  background-image: -moz-linear-gradient(left, #0E0E0E, #fff, #0E0E0E); 
+  background-image: -ms-linear-gradient(left, #0E0E0E, #fff, #0E0E0E); 
+  background-image: -o-linear-gradient(left, #0E0E0E, #fff, #0E0E0E);
 }
 
 .ctg-division__logo{
   margin: 0px 5px;
-  color: #777;
+  color: #fff;
 }
 
 .ctg__title{
