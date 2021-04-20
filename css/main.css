@@ -628,7 +628,7 @@ body::-webkit-scrollbar-thumb {
     margin-left: 0;
   }
   .header__actions {
-    justify-content: space-between;
+    justify-content: flex-end;
     width: 350px;
   }
   .header__form {
