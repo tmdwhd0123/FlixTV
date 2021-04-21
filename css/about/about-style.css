@@ -136,6 +136,21 @@ textarea.form-control {
   margin: 0px;
 }
 
+.awards{
+  display: flex;
+  justify-content: space-between;
+}
+
+.award{
+  width: 100%;
+  height: 100%;
+}
+
+.award img{
+  max-width: 100%;
+  height: auto;
+}
+
 
 
 
