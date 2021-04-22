@@ -455,16 +455,3 @@ $(document).ready(function () {
 
 
 });
-
-/*==============================
-	Menu
-	==============================*/
-	$('.header__btn').on('click', function() {
-		$(this).toggleClass('header__btn--active');
-		$('.header__nav').toggleClass('header__nav--active');
-		$('.body').toggleClass('body--active');
-	});
-
-	$('.header__search-btn, .header__search-close').on('click', function() {
-		$('.header__search').toggleClass('header__search--active');
-	});
