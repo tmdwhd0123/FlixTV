@@ -50,12 +50,6 @@ $(document).ready(function () {
 		$('.header__menu').toggleClass('header__menu--active');
 		$('.header').toggleClass('header--menu');
 		$('.header__nav').toggleClass('header__nav--active');
-
-		if( $('.header__nav').hasClass('header__nav--active') ) {
-			disableScrolling();
-		} else {
-			enableScrolling();
-		}
 	});
 
 	$('.header__search, .header__form-close').on('click', function() {
