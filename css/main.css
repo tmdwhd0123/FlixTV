@@ -5847,7 +5847,7 @@ body::-webkit-scrollbar-thumb {
   border: 1px solid rgba(167,130,233,0.06);
   border-radius: 6px;
   overflow: hidden;
-  background-color: #1b222e;
+  background-color: #0E0E0E;
   padding: 20px;
   width: 100%;
 }
@@ -6031,22 +6031,9 @@ body::-webkit-scrollbar-thumb {
   border-radius: 50%;
   margin-right: 10px;
 }
-.items__platforms li svg {
-  fill: #fff;
-  width: 14px;
-  height: auto;
-}
-.items__platforms li.ps {
-  background-color: #665cbe;
-}
-.items__platforms li.xb {
-  background-color: #0e7a0d;
-}
-.items__platforms li.wn {
-  background-color: #00aef0;
-}
-.items__platforms li.ap {
-  background-color: #555;
+.items__platforms img{
+  width: 30px;
+  height: 30px;
 }
 .items__platforms li:last-child {
   margin-right: 0;
