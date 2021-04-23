@@ -156,6 +156,9 @@ body::-webkit-scrollbar-thumb {
   background-color: #f9ab00;
   outline: 1px solid #212529;
 }
+.detail-tab img{
+  width: 100%;
+}
 @media (min-width: 1440px) {
   .container {
     max-width: 1330px;
