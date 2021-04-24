@@ -26,7 +26,6 @@
 	margin-left: auto;
 	margin-right: auto;
 	height:auto;
-	padding:0px 40px;
 	position:relative;
 	clear:both;
 }
@@ -401,7 +400,6 @@
 	.cursor-inner{display: none;}
 	.cursor-inner.cursor-hover{display: none;}
 	.cursor-outer{display: none;}
-	.container{padding: 0px 20px;}
 	.tokyo_tm_topbar{display: none;}
 	.tokyo_tm_mobile_menu{display: block;}
 	.tokyo_tm_hero .name{font-size: 130px;}

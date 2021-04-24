@@ -5489,9 +5489,6 @@ body::-webkit-scrollbar-thumb {
 /*==============================
 	36. Content
 ==============================*/
-.content {
-  padding: 0 0 30px;
-}
 .content--profile {
   padding-bottom: 50px;
 }
@@ -5619,9 +5616,6 @@ body::-webkit-scrollbar-thumb {
   margin-top: 10px;
 }
 @media (min-width: 768px) {
-  .content {
-    padding: 0 0 40px;
-  }
   .content--profile {
     padding-bottom: 70px;
   }
