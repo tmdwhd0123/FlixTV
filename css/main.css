@@ -1899,7 +1899,6 @@ body::-webkit-scrollbar-thumb {
   opacity: 1;
   pointer-events: none;
   height: 30px;
-  width: 50px;
   padding: 0 10px;
   transform: scale(0.8);
   border-radius: 10px;
@@ -2055,11 +2054,6 @@ body::-webkit-scrollbar-thumb {
   }
   .card__add svg {
     width: 18px;
-  }
-  .card__rating {
-    top: 15px;
-    right: 15px;
-    font-size: 14px;
   }
   .card__rating svg {
     width: 18px;
