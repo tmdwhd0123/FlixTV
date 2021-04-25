@@ -6314,6 +6314,7 @@ body::-webkit-scrollbar-thumb {
   flex-direction: column;
   color: #fff;
   z-index: 10;
+  margin: 50px;
 }
 .portfolio_details h1{
   font-size: 62px;
@@ -6328,10 +6329,14 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   padding: 0 15px;
   justify-content: center;
+  align-items: center;
   width: 50%;
   z-index: 10;
+  margin: 50px;
 }
-
+.portfolio_video img{
+  width: 100%;
+}
 @media (max-width: 1200px) {
   .portfolio{
     display: flex;
