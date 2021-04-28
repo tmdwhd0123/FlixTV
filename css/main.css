@@ -46,6 +46,7 @@ Primary use:	FlixTV HTML Template
 36. content
 37. Price
 38. items
+39. portfolio
 ----------------------------------------*/
 /*==============================
 	Fonts
@@ -66,7 +67,7 @@ body {
 body {
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: 400;
-  background-color: #0E0E0E;
+  background-color: #161616;
   -webkit-font-smoothing: antialiased;
 }
 button {
@@ -204,11 +205,11 @@ body::-webkit-scrollbar-thumb {
   transition: 0.5s, margin 0s;
 }
 .header.animate{
-  background-color: #0E0E0E;
+  background-color: #161616;
 }
 .header--menu {
   top: 250px;
-  background-color: #0E0E0E;
+  background-color: #161616;
 }
 .header__content {
   display: flex;
@@ -237,7 +238,7 @@ body::-webkit-scrollbar-thumb {
   justify-content: flex-start;
   align-items: flex-start;
   position: fixed;
-  background-color: #0E0E0E;
+  background-color: #161616;
   top: -250px;
   left: 0;
   width: 100%;
@@ -245,7 +246,7 @@ body::-webkit-scrollbar-thumb {
   height: 250px;
   padding: 20px;
   transition: 0.5s;
-  background: #0E0E0E;
+  background: #161616;
   border-bottom: 1px solid #212529;
 }
 .header__nav--active {
@@ -419,7 +420,7 @@ body::-webkit-scrollbar-thumb {
   right: 0;
   bottom: -80px;
   height: 80px;
-  background-color: #0E0E0E;
+  background-color: #161616;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -435,7 +436,7 @@ body::-webkit-scrollbar-thumb {
   width: calc(100% - 40px);
   height: 40px;
   border-radius: 16px;
-  background-color: #0E0E0E;
+  background-color: #161616;
   border: none;
   padding: 0 60px 0 20px;
   font-size: 14px;
@@ -690,7 +691,7 @@ body::-webkit-scrollbar-thumb {
   right: 0;
   display: block;
   z-index: 1;
-  background: linear-gradient(180deg, rgba(21,31,48,0.35) 0%, #0E0E0E 100%);
+  background: linear-gradient(180deg, rgba(21,31,48,0.35) 0%, #161616 100%);
 }
 .home--title .container,
 .home--title .home__carousel {
@@ -1064,7 +1065,7 @@ body::-webkit-scrollbar-thumb {
   right: 0;
   display: block;
   z-index: 1;
-  background: linear-gradient(180deg, rgba(19,23,32,0.5) 0%, #0E0E0E 100%);
+  background: linear-gradient(180deg, rgba(19,23,32,0.5) 0%, #161616 100%);
   pointer-events: none;
 }
 .section__title {
@@ -1375,7 +1376,7 @@ body::-webkit-scrollbar-thumb {
   right: 0;
   display: block;
   z-index: 1;
-  /*background: linear-gradient(0deg, rgba(21,31,48,0.35) 0%, #0E0E0E 100%);*/
+  /*background: linear-gradient(0deg, rgba(21,31,48,0.35) 0%, #161616 100%);*/
 }
 .catalog .container {
   z-index: 2;
@@ -1461,7 +1462,7 @@ body::-webkit-scrollbar-thumb {
   width: 30px;
   height: 30px;
   border-radius: 12px;
-  background-color: #0E0E0E;
+  background-color: #161616;
   font-size: 14px;
   color: #e0e0e0;
   font-weight: 500;
@@ -1522,7 +1523,7 @@ body::-webkit-scrollbar-thumb {
     position: sticky;
     top: -1px;
     z-index: 99;
-    background-color: #0E0E0E;
+    background-color: #161616;
     border-radius: 0 0 16px 16px;
   }
   .catalog__nav:before {
@@ -2686,7 +2687,7 @@ body::-webkit-scrollbar-thumb {
   min-width: 160px;
   height: 50px;
   border-radius: 16px;
-  background-color: #0E0E0E;
+  background-color: #161616;
   font-size: 14px;
   color: #e0e0e0;
   text-transform: uppercase;
@@ -2875,7 +2876,7 @@ body::-webkit-scrollbar-thumb {
   min-width: 160px;
   height: 50px;
   border-radius: 16px;
-  background-color: #0E0E0E;
+  background-color: #161616;
   font-size: 14px;
   color: #e0e0e0;
   text-transform: uppercase;
@@ -3139,7 +3140,7 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
   padding: 0 10px;
   height: 30px;
-  background-color: #0E0E0E;
+  background-color: #161616;
   font-size: 12px;
   margin-left: 15px;
   color: #e0e0e0;
@@ -3832,7 +3833,7 @@ body::-webkit-scrollbar-thumb {
   padding: 20px;
   border-radius: 16px;
   border: 1px solid rgba(47,128,237,0.1);
-  background-color: #0E0E0E;
+  background-color: #161616;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
@@ -4001,7 +4002,7 @@ body::-webkit-scrollbar-thumb {
   min-height: 80px;
   border-radius: 16px;
   color: #e0e0e0;
-  background-color: #0E0E0E;
+  background-color: #161616;
 }
 .comments__item {
   margin-bottom: 20px;
@@ -4112,7 +4113,7 @@ body::-webkit-scrollbar-thumb {
   padding: 20px;
   border: 1px solid rgba(47,128,237,0.1);
   margin-top: 60px;
-  background-color: #0E0E0E;
+  background-color: #161616;
 }
 .comments__form .row {
   margin-left: -10px;
@@ -4241,7 +4242,7 @@ body::-webkit-scrollbar-thumb {
   padding: 20px;
   border: 1px solid rgba(47,128,237,0.1);
   margin-top: 60px;
-  background-color: #0E0E0E;
+  background-color: #161616;
 }
 .reviews__form .row {
   margin-left: -10px;
@@ -4428,7 +4429,7 @@ body::-webkit-scrollbar-thumb {
 	Footer
 ==============================*/
 .footer {
-  background-color: #0E0E0E;
+  background-color: #161616;
   padding: 30px 0;
   position: relative;
   overflow: hidden;
@@ -4442,7 +4443,7 @@ body::-webkit-scrollbar-thumb {
   right: 0;
   display: block;
   z-index: 1;
-  background: linear-gradient(180deg, rgba(21,31,48,0.35) 0%, #0E0E0E 100%);
+  background: linear-gradient(180deg, rgba(21,31,48,0.35) 0%, #161616 100%);
 }
 .footer .container {
   z-index: 2;
@@ -4628,7 +4629,7 @@ body::-webkit-scrollbar-thumb {
   padding: 40px 0;
 }
 .sign__form {
-  background-color: #0E0E0E;
+  background-color: #161616;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -5036,7 +5037,7 @@ body::-webkit-scrollbar-thumb {
   padding: 40px 0;
 }
 .page-404__content {
-  background-color: #0E0E0E;
+  background-color: #161616;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -5098,7 +5099,7 @@ body::-webkit-scrollbar-thumb {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: #0E0E0E;
+  background-color: #161616;
   padding: 5px 0;
   border-radius: 16px;
   margin-top: 10px;
@@ -5150,7 +5151,7 @@ body::-webkit-scrollbar-thumb {
 .modal {
   position: relative;
   display: block;
-  background-color: #0E0E0E;
+  background-color: #161616;
   margin: 40px auto;
   width: 100%;
   max-width: 440px;
@@ -5188,7 +5189,7 @@ body::-webkit-scrollbar-thumb {
   }
 }
 .mfp-bg {
-  background-color: #0E0E0E;
+  background-color: #161616;
 }
 .mfp-container {
   padding: 0 15px !important;
@@ -5196,7 +5197,7 @@ body::-webkit-scrollbar-thumb {
 .mfp-iframe-scaler iframe {
   border-radius: 16px;
   box-shadow: none;
-  background-color: #0E0E0E;
+  background-color: #161616;
   border: 1px solid rgba(47,128,237,0.1);
 }
 .mfp-iframe-holder .mfp-content {
@@ -5209,7 +5210,7 @@ body::-webkit-scrollbar-thumb {
 }
 .mfp-figure::after {
   box-shadow: none;
-  background-color: #0E0E0E;
+  background-color: #161616;
 }
 .mfp-fade.mfp-bg {
   opacity: 0;
@@ -5349,7 +5350,7 @@ body::-webkit-scrollbar-thumb {
 	Scrollbar-track
 ==============================*/
 .scrollbar-track-y {
-  background: #0E0E0E !important;
+  background: #161616 !important;
   top: 10px !important;
   bottom: 10px !important;
   height: auto !important;
@@ -5364,7 +5365,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 4px !important;
 }
 .scrollbar-track-x {
-  background: #0E0E0E !important;
+  background: #161616 !important;
   left: 10px !important;
   right: 10px !important;
   height: 4px !important;
@@ -5837,7 +5838,7 @@ body::-webkit-scrollbar-thumb {
   border: 1px solid rgba(167,130,233,0.06);
   border-radius: 6px;
   overflow: hidden;
-  background-color: #0E0E0E;
+  background-color: #161616;
   padding: 20px;
   width: 100%;
 }
@@ -6287,6 +6288,10 @@ body::-webkit-scrollbar-thumb {
     padding-left: 260px;
   }
 }
+
+/*==============================
+	39. portfolio
+==============================*/
 .portfolio-bg{
     display: flex;
     align-items: center;
@@ -6328,11 +6333,27 @@ body::-webkit-scrollbar-thumb {
 }
 .portfolio_details h1{
   font-size: 62px;
+  margin: 0px;
 }
 .portfolio_details h2{
   font-size: 20px;
+  padding: 0 10px;
+  border-left: solid 2px red;
 }
-.portfolio_details span{
+.portfolio_details_info{
+  display: flex;
+  margin: 15px 0px;
+}
+.portfolio_details_info span{
+  margin: 0 15px;
+}
+.portfolio_details h3{
+  font-size: 16px;
+  font-weight: 500;
+  padding: 2px 8px;
+  border: solid 1px white;
+}
+.portfolio_details p{
   font-size: 18px;
 }
 .portfolio_video{
@@ -6352,6 +6373,7 @@ body::-webkit-scrollbar-thumb {
   }
   .portfolio_details{
     width: 100%;
+    margin-top: 50px;
   }
   .portfolio_video{
     width: 100%;
