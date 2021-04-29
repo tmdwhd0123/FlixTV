@@ -47,6 +47,7 @@ Primary use:	FlixTV HTML Template
 37. Price
 38. items
 39. portfolio
+40. playBut
 ----------------------------------------*/
 /*==============================
 	Fonts
@@ -6357,6 +6358,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 18px;
 }
 .portfolio_video{
+  position: relative;
   display: flex;
   padding: 0 15px;
   justify-content: center;
@@ -6364,7 +6366,13 @@ body::-webkit-scrollbar-thumb {
   width: 50%;
 }
 .portfolio_video img{
+  position: absolute;
   width: 100%;
+  z-index: 2;
+}
+.portfolio_video a{
+  position: absolute;
+  z-index: 5;
 }
 @media (max-width: 1200px) {
   .portfolio{
@@ -6382,4 +6390,54 @@ body::-webkit-scrollbar-thumb {
     height: 100%;
     padding: 100px 0;
 }
+}
+
+/*==============================
+	40. playBut
+==============================*/
+.circle {
+  stroke: #fff;
+  stroke-dasharray: 650;
+  stroke-dashoffset: 650;
+  -webkit-transition: all 0.5s ease-in-out;
+  opacity: 0.3;
+}
+
+.playBut {
+  display: inline-block;
+  -webkit-transition: all 0.5s ease;
+}
+.playBut .triangle {
+  -webkit-transition: all 0.7s ease-in-out;
+  stroke-dasharray: 240;
+  stroke-dashoffset: 480;
+  stroke: #fff;
+  transform: translateY(0);
+}
+.playBut:hover .triangle {
+  stroke-dashoffset: 0;
+  opacity: 1;
+  stroke: #fff;
+  animation: nudge 0.7s ease-in-out;
+}
+@keyframes nudge {
+  0% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  70% {
+    transform: translateX(-2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.playBut:hover .circle {
+  stroke-dashoffset: 0;
+  opacity: 1;
 }
