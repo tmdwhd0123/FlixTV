@@ -50,29 +50,11 @@
 						</a>
 
 						<ul class="header__nav">
-							<li class="header__nav-item">
-								<a class="header__nav-link" href="pricing.html">홈</a>
-							</li>
-              <li class="header__nav-item">
-								<a class="header__nav-link" href="pricing.html">소개</a>
-							</li>
-							<li class="header__nav-item">
-								<a class="header__nav-link" href="#" role="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">템플릿 <svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.93893 3.30334C1.08141 3.30334 0.384766 2.60669 0.384766 1.75047C0.384766 0.894254 1.08141 0.196308 1.93893 0.196308C2.79644 0.196308 3.49309 0.894254 3.49309 1.75047C3.49309 2.60669 2.79644 3.30334 1.93893 3.30334Z"/></svg></a>
-
-								<ul class="dropdown-menu header__nav-menu" aria-labelledby="dropdownMenu1">
-									<li><a href="category.html">자막바</a></li>
-									<li><a href="category2.html">트렌지션</a></li>
-									<li><a href="details.html">색보정</a></li>
-									<li><a href="details2.html">모션그래픽</a></li>
-								</ul>
-							</li>
-              <li class="header__nav-item">
-								<a class="header__nav-link" href="pricing.html">포트폴리오</a>
-							</li>
-              <li class="header__nav-item">
-								<a class="header__nav-link" href="pricing.html">문의하기</a>
-							</li>
-							
+							<li class="header__nav-item" data-link="#home">홈</li>
+              <li class="header__nav-item" data-link="#introduce">소개</li>
+              <li class="header__nav-item" data-link="#template">템플릿</li>
+              <li class="header__nav-item" data-link="#portfolio">포트폴리오</li>
+              <li class="header__nav-item" data-link="#contact">문의하기</li>
 						</ul>
 					</div>
 				</div>
@@ -88,7 +70,7 @@
 	<!-- /PRELOADER -->
 	
 	<!-- HERO -->
-  <div class="banner">
+  <div id="home" class="banner">
 	  <div class="tokyo_tm_hero">
 		<div class="bg">
 			<div class="image" data-img-url="hero.jpg"></div>
@@ -125,7 +107,7 @@
 
 
   <!-- ABOUT -->
-  <section class="what-we-do-area pt-100 pb-70">
+  <section id="introduce" class="what-we-do-area pt-100 pb-70">
 <div class="container">
 <div class="row align-items-center">
 <div class="col-lg-6">
@@ -186,7 +168,7 @@
   <!-- /ABOUT -->
 
   <!-- ctg -->
-  <div class="ctg">
+  <div id="template" class="ctg">
     <span class="ctg__title">Template</span>
     <div class="ctg-division">
       <div class="ctg-division__line"></div>
@@ -587,7 +569,7 @@
  
 
   <!-- Swiper -->
-  <div class="swiper-container swiper-banner">
+  <div id="portfolio" class="swiper-container swiper-banner">
 	<div class="swiper-wrapper">
 		<div class="swiper-slide swiper-banner-slide">
 			<div class="portfolio-bg" style="background: url('img/portfolio/bg.jpeg')">

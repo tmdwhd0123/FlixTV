@@ -248,6 +248,7 @@ body::-webkit-scrollbar-thumb {
   transition: 0.5s;
   background: #161616;
   border-bottom: 1px solid #212529;
+  color: #fff;
 }
 .header__nav--active {
   top: 0;
@@ -299,6 +300,7 @@ body::-webkit-scrollbar-thumb {
 .header__nav-item {
   margin-bottom: 20px;
   position: relative;
+  cursor: pointer;
 }
 .header__nav-item:last-child {
   margin-bottom: 0;
