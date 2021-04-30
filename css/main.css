@@ -209,7 +209,7 @@ body::-webkit-scrollbar-thumb {
   background-color: #161616;
 }
 .header--menu {
-  top: 250px;
+  top: 230px;
   background-color: #161616;
 }
 .header__content {
@@ -243,7 +243,7 @@ body::-webkit-scrollbar-thumb {
   left: 0;
   width: 100%;
   z-index: 100;
-  height: 250px;
+  height: 230px;
   padding: 20px;
   transition: 0.5s;
   background: #161616;
@@ -579,7 +579,7 @@ body::-webkit-scrollbar-thumb {
     height: 80px;
   }
   .header__content {
-    height: 100px;
+    height: 80px;
     overflow: visible;
   }
   .header__nav {
@@ -588,7 +588,7 @@ body::-webkit-scrollbar-thumb {
     top: auto;
     left: auto;
     position: relative;
-    height: 100px;
+    height: 80px;
     padding: 0;
     width: auto;
     z-index: 2;
@@ -601,7 +601,7 @@ body::-webkit-scrollbar-thumb {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    height: 100px;
+    height: 80px;
     margin-bottom: 0;
     margin-right: 60px;
   }

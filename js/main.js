@@ -453,7 +453,7 @@ $(document).ready(function () {
 // Handle scrolling when tapping on the navbar menu
 function scrollToTargetAdjusted(a) {
   var element = document.getElementById(a);
-  if (window.innerWidth < 768) { var headerOffset = 330 } else { var headerOffset = 100; };
+  if (window.innerWidth < 768) { var headerOffset = 330 } else { var headerOffset = 80; };
   var elementPosition = element.getBoundingClientRect().top;
   var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
   var offsetPosition = elementPosition + scrollTop - headerOffset;
