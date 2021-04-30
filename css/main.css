@@ -225,7 +225,6 @@ body::-webkit-scrollbar-thumb {
 }
 .header__logo {
   display: block;
-  margin-left: 35px;
   height: auto;
   width: 80px;
 }
@@ -375,7 +374,7 @@ body::-webkit-scrollbar-thumb {
   width: 24px;
   height: 22px;
   display: block;
-  left: 0;
+  right: 0;
   top: 29px;
 }
 .header__menu span {
@@ -393,11 +392,11 @@ body::-webkit-scrollbar-thumb {
 }
 .header__menu span:nth-child(2) {
   top: 10px;
-  width: 16px;
+  /*width: 16px;*/
 }
 .header__menu span:last-child {
   top: 20px;
-  width: 8px;
+  /*width: 8px;*/
 }
 .header__menu--active span {
   background-color: #f9ab00;
@@ -667,9 +666,6 @@ body::-webkit-scrollbar-thumb {
 @media (min-width: 1440px) {
   .header__actions {
     width: 383px;
-  }
-  .header__content {
-    padding: 0 30px;
   }
 }
 /*==============================
