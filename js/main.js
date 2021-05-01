@@ -464,6 +464,8 @@ function scrollToTargetAdjusted(a) {
 }
 
 const navbarMenu = document.querySelector('.header__nav');
+const navbarMenu2 = document.querySelector('.header__menu');
+const navbarMenu3 = document.querySelector('.header');
 navbarMenu.addEventListener('click', (event) => {
   const target = event.target;
   const link = target.dataset.link;
@@ -472,5 +474,7 @@ navbarMenu.addEventListener('click', (event) => {
   }
   const linkid = document.querySelector(link).id;
   scrollToTargetAdjusted(linkid);
-  navbarMenu.classList.remove('header__menu--active', 'header__nav--active');
+  navbarMenu.classList.remove('header__nav--active');
+  navbarMenu2.classList.remove('header__menu--active');
+  navbarMenu3.classList.remove('header--menu');
 });
