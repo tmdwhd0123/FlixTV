@@ -282,16 +282,13 @@ function tokyo_tm_nav_bg(){
 
 	jQuery(window).on('scroll',function(){
 		var topbar	 		= jQuery('.header');
-    var search	 		  = jQuery('.header__form');
     
 		var WinOffset		= jQuery(window).scrollTop();
 
 		if(WinOffset >= 100){
 			topbar.addClass('animate');
-      search.addClass('animate');
 		}else{
 			topbar.removeClass('animate'); 
-      search.removeClass('animate');
 		}
 	});
 }
