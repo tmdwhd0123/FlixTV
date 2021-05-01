@@ -236,7 +236,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   position: fixed;
   background-color: #161616;
   top: 80px;
