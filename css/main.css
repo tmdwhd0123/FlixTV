@@ -209,7 +209,7 @@ body::-webkit-scrollbar-thumb {
   background-color: #161616;
 }
 .header--menu {
-  top: 230px;
+  top: 0px;
   background-color: #161616;
 }
 .header__content {
@@ -239,7 +239,7 @@ body::-webkit-scrollbar-thumb {
   align-items: flex-start;
   position: fixed;
   background-color: #161616;
-  top: -250px;
+  top: 80px;
   left: 0;
   width: 100%;
   z-index: 100;
@@ -251,9 +251,12 @@ body::-webkit-scrollbar-thumb {
   color: #e0e0e0;
   font-size: 14px;
   font-weight: 400;
+  visibility: hidden;
+  opacity: 0;
 }
 .header__nav--active {
-  top: 0;
+  visibility: visible;
+  opacity: 1;
 }
 .header__nav-link {
   font-size: 14px;
@@ -543,6 +546,10 @@ body::-webkit-scrollbar-thumb {
   /*.header--static {
     position: relative;
   }*/
+  .header__nav {
+    visibility: visible;
+    opacity: 1;
+  }
   .header--fixed {
     border-bottom: 1px solid transparent;
   }
@@ -6347,6 +6354,9 @@ body::-webkit-scrollbar-thumb {
 }
 .portfolio_details_info span{
   margin: 0 15px;
+}
+.portfolio_details_info h3{
+  border-radius: 3px;
 }
 .portfolio_details h3{
   font-size: 16px;
