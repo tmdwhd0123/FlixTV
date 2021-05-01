@@ -453,7 +453,7 @@ $(document).ready(function () {
 // Handle scrolling when tapping on the navbar menu
 function scrollToTargetAdjusted(a) {
   var element = document.getElementById(a);
-  if (window.innerWidth < 768) { var headerOffset = 310 } else { var headerOffset = 80; };
+  if (window.innerWidth < 1200) { var headerOffset = 310 } else { var headerOffset = 80; };
   var elementPosition = element.getBoundingClientRect().top;
   var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
   var offsetPosition = elementPosition + scrollTop - headerOffset;
@@ -472,5 +472,5 @@ navbarMenu.addEventListener('click', (event) => {
   }
   const linkid = document.querySelector(link).id;
   scrollToTargetAdjusted(linkid);
-  navbarMenu.classList.remove('open');
+  navbarMenu.classList.remove('header__menu--active', 'header__nav--active');
 });
