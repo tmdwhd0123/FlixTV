@@ -6141,6 +6141,41 @@ body::-webkit-scrollbar-thumb {
 }
 }
 
+@media(max-width:1399px) {
+	.portfolio_details h1 {
+		font-size:54px;
+		line-height:62px;
+	}
+}
+@media(max-width:1365px) {
+	.portfolio_details h1 {
+		font-size:62px;
+		line-height:70px;
+	}
+}
+@media(max-width:1023px) {
+	.portfolio_details h1 {
+		font-size:54px;
+		line-height:62px;
+	}
+}
+@media(max-width:767px) {
+	.portfolio_details h1 {
+		font-size:40px;
+		line-height:48px;
+	}
+	.portfolio_details h2, .portfolio_details p{
+		font-size:16px;
+		line-height:24px;
+	}
+}
+@media(max-width:479px) {
+	.portfolio_details h1 {
+		font-size:30px;
+		line-height: 38px;
+	}
+}
+
 /*==============================
 	40. playBut
 ==============================*/
@@ -6189,4 +6224,11 @@ body::-webkit-scrollbar-thumb {
 .playBut:hover .circle {
   stroke-dashoffset: 0;
   opacity: 1;
+}
+
+@media(max-width:479px) {
+  .playBut svg {
+    width: 60px;
+    height: 60px;
+  }
 }
