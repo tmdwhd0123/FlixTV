@@ -6080,11 +6080,9 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   margin: 15px 0px;
 }
-.portfolio_details_info span{
-  margin: 0 15px;
-}
 .portfolio_details_info h3{
   border-radius: 3px;
+  margin-right: 10px;
 }
 .portfolio_details h3{
   font-size: 16px;
@@ -6138,7 +6136,10 @@ body::-webkit-scrollbar-thumb {
   .portfolio-bg{
     height: 100%;
     padding: 50px 0;
-}
+  }
+  .swiper-button-next, .swiper-button-prev {
+    display: none !important;
+  }
 }
 
 @media(max-width:1399px) {
