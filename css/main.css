@@ -505,7 +505,7 @@ body::-webkit-scrollbar-thumb {
   pointer-events: none;
 }
 .home__card div h2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 26px;
   line-height: 120%;
   font-weight: 400;
@@ -610,7 +610,7 @@ body::-webkit-scrollbar-thumb {
 }
 .home__title {
   display: block;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 300;
   color: #fff;
   font-size: 32px;
@@ -806,7 +806,7 @@ body::-webkit-scrollbar-thumb {
 }
 .section__title {
   display: block;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 400;
   color: #fff;
   font-size: 30px;
@@ -1653,8 +1653,8 @@ body::-webkit-scrollbar-thumb {
   margin-right: 5px;
 }
 .card__title {
-  font-family: 'Rubik', sans-serif;
-  font-weight: 500;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   color: #fff;
   margin-top: 10px;
@@ -1730,7 +1730,7 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: 0;
   overflow: hidden;
   margin-top: auto;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-style: italic;
 }
 .card:hover .card__cover:before {
@@ -1938,7 +1938,7 @@ body::-webkit-scrollbar-thumb {
   height: auto;
 }
 .live__title {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 18px;
   line-height: 28px;
   font-weight: 400;
@@ -2041,7 +2041,7 @@ body::-webkit-scrollbar-thumb {
   transition: stroke 0.5s;
 }
 .interview__title {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 18px;
   line-height: 28px;
   font-weight: 400;
@@ -2143,7 +2143,7 @@ body::-webkit-scrollbar-thumb {
   transition: stroke 0.5s;
 }
 .series__title {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -2192,7 +2192,7 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
   width: 100%;
   color: #fff;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 100%;
@@ -2248,7 +2248,7 @@ body::-webkit-scrollbar-thumb {
   transition: 0.5s;
 }
 .category__title {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 18px;
   line-height: 28px;
   font-weight: 400;
@@ -2336,7 +2336,7 @@ body::-webkit-scrollbar-thumb {
   line-height: 100%;
 }
 .plans__head p {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 500;
   font-size: 42px;
   color: #fff;
@@ -2550,7 +2550,7 @@ body::-webkit-scrollbar-thumb {
   padding-bottom: 20px;
   margin-bottom: 20px;
   border-bottom: 1px solid rgba(47,128,237,0.1);
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 .plan__list {
   position: relative;
@@ -2587,7 +2587,7 @@ body::-webkit-scrollbar-thumb {
 .plan__price {
   position: relative;
   z-index: 2;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 500;
   font-size: 36px;
   color: #fff;
@@ -2662,7 +2662,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   line-height: 100%;
   font-weight: 500;
   font-size: 24px;
@@ -2670,7 +2670,7 @@ body::-webkit-scrollbar-thumb {
   background-color: rgba(47,128,237,0.3);
 }
 .step__title {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 18px;
   line-height: 28px;
   font-weight: 500;
@@ -2709,7 +2709,7 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
 }
 .stats span {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 18px;
   line-height: 28px;
   font-weight: 400;
@@ -2789,7 +2789,7 @@ body::-webkit-scrollbar-thumb {
   height: 34px;
 }
 .feature__title {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 18px;
   line-height: 28px;
   font-weight: 500;
@@ -2854,7 +2854,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 18px;
   line-height: 100%;
   margin-bottom: 0;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 400;
 }
 .dashbox__title h3 svg {
@@ -3086,7 +3086,7 @@ body::-webkit-scrollbar-thumb {
 .article__content h4,
 .article__content h5,
 .article__content h6 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 400;
   color: #fff;
   margin-bottom: 20px;
@@ -3144,7 +3144,7 @@ body::-webkit-scrollbar-thumb {
 .article__content blockquote {
   display: block;
   position: relative;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   padding: 0 0 0 20px;
   font-size: 16px;
   line-height: 28px;
@@ -3470,7 +3470,7 @@ body::-webkit-scrollbar-thumb {
   display: block;
   width: 100%;
   color: #fff;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 100%;
@@ -3517,7 +3517,7 @@ body::-webkit-scrollbar-thumb {
   display: block;
   width: 100%;
   color: #fff;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 100%;
@@ -3597,7 +3597,7 @@ body::-webkit-scrollbar-thumb {
   line-height: 100%;
   margin-bottom: 20px;
   position: relative;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 .subscribe__text {
   font-size: 16px;
@@ -3624,9 +3624,7 @@ body::-webkit-scrollbar-thumb {
 	Comments
 ==============================*/
 .comments {
-  margin-top: 60px;
-  padding-top: 20px;
-  border-top: 1px solid rgba(47,128,237,0.1);
+  margin-top: 30px;
 }
 .comments__title {
   display: flex;
@@ -3638,11 +3636,11 @@ body::-webkit-scrollbar-thumb {
 .comments__title h4 {
   color: #fff;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 100%;
   margin-bottom: 0;
   position: relative;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 .comments__title span {
   display: flex;
@@ -4005,7 +4003,7 @@ body::-webkit-scrollbar-thumb {
   line-height: 100%;
   margin-bottom: 0;
   position: relative;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 .reviews__title span {
   display: flex;
@@ -4077,11 +4075,10 @@ body::-webkit-scrollbar-thumb {
   display: block;
   width: 100%;
   color: #fff;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 100%;
-  margin-top: 60px;
   margin-bottom: 10px;
 }
 @media (min-width: 768px) {
@@ -4110,7 +4107,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 16px;
   line-height: 30px;
   color: #fff;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 400;
 }
 .contacts__list a:hover {
@@ -4269,7 +4266,7 @@ body::-webkit-scrollbar-thumb {
   margin-top: 30px;
   font-size: 15px;
   color: #fff;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 500;
   margin-bottom: 15px;
 }
@@ -4417,7 +4414,7 @@ body::-webkit-scrollbar-thumb {
 .sign__title {
   font-size: 16px;
   font-weight: 500;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   color: #fff;
   margin-bottom: 20px;
 }
@@ -4792,7 +4789,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 120px;
   margin-bottom: 10px;
   font-weight: 500;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 .page-404__text {
   text-align: center;
@@ -5022,7 +5019,7 @@ body::-webkit-scrollbar-thumb {
   color: #fff;
   padding: 0 16px 0 0;
   font-size: 14px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 500;
   transition: 0.5s;
 }
@@ -5057,7 +5054,7 @@ body::-webkit-scrollbar-thumb {
 .select2-results__option {
   padding: 0 0;
   font-size: 14px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 500;
   color: #e0e0e0;
   height: 40px;
@@ -5119,7 +5116,7 @@ body::-webkit-scrollbar-thumb {
 	Plyr customization
 ==============================*/
 .plyr {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   font-weight: 400;
   border-radius: 16px;
   margin-top: 30px;
@@ -6113,6 +6110,7 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   height: 100%;
   z-index: 2;
+  border-radius: 3px;
 }
 .portfolio_video_img a{
   position: absolute;
