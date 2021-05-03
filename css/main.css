@@ -48,7 +48,7 @@ Primary use:	FlixTV HTML Template
 38. items
 39. portfolio
 40. playBut
-41. Partner
+41. client-logo
 ----------------------------------------*/
 /*==============================
 	Fonts
@@ -6234,57 +6234,81 @@ body::-webkit-scrollbar-thumb {
 }
 
 /*==============================
-	41. Partner
+	41. client-logo
 ==============================*/
 
-@-webkit-keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-250px * 7));
-  }
+.slick-slide {
+  margin: 0px 20px;
 }
 
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-250px * 7));
-  }
+.logo-carousel {
+  overflow: inherit;
+  /*border-top: 1px solid #353535;
+  border-bottom: 1px solid #353535;*/
 }
-.slider {
-  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
-  height: 100px;
-  margin: auto;
-  overflow: hidden;
-  position: relative;
+
+.slick-slide img {
   width: 100%;
 }
-.slider::before, .slider::after {
-  content: "";
-  height: 100px;
+
+.slick-track::before,
+.slick-track::after {
+  display: table;
+  content: '';
+}
+
+.slick-track::after {
+  clear: both;
+}
+
+.slick-track {
+  padding: 1rem 0;
+}
+
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+.slick-arrow {
   position: absolute;
-  width: 200px;
-  z-index: 2;
+  top: 50%;
+  background: url(https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/arrow.svg?sanitize=true) center no-repeat;
+  color: #fff;
+  filter: invert(77%) sepia(32%) saturate(1%) hue-rotate(344deg) brightness(105%) contrast(103%);
+  border: none;
+  width: 2rem;
+  height: 1.5rem;
+  text-indent: -10000px;
+  margin-top: -16px;
+  z-index: 99;
 }
-.slider::after {
-  right: 0;
-  top: 0;
-  transform: rotateZ(180deg);
+
+.slick-arrow.slick-next {
+  right: -40px;
+  transform: rotate(180deg);
 }
-.slider::before {
-  left: 0;
-  top: 0;
+
+.slick-arrow.slick-prev {
+  left: -40px;
 }
-.slider .slide-track {
-  -webkit-animation: scroll 40s linear infinite;
-          animation: scroll 40s linear infinite;
-  display: flex;
-  width: calc(250px * 14);
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .slick-arrow {
+    width: 1rem;
+    height: 1rem;
+  }
 }
-.slider .slide {
-  height: 100px;
-  width: 250px;
-}
+  
+.client-logo {
+  overflow: hidden;
+} 
