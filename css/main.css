@@ -6603,3 +6603,36 @@ body::-webkit-scrollbar-thumb {
 .tr-movie-menu-active button.active {
 	text-shadow: 0 3px 24px rgba(255, 255, 255, 0.5)
 }
+
+
+/*==============================
+	39. contact
+==============================*/
+.contact-bg{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+
+.contact-bg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    display: inline-block;
+    background: rgb(0, 0, 0);
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
